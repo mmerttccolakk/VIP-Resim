@@ -1,0 +1,161 @@
+@charset "utf-8";
+body {
+	background-image: url(../rsm/bg.png);
+}
+#panel {
+	background-color: #F2F2F2;
+	width: 898px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid #d4d3cf;
+	padding: 10px;
+}
+#giris {
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#FAD683), to(#E9A60A));
+	width: 898px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 10px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: medium;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #d4d3cf;
+	border-right-color: #d4d3cf;
+	border-bottom-color: #E9A60A;
+	border-left-color: #d4d3cf;
+	-webkit-border-radius: 20px 20px 0px 0px;
+	-moz-border-radius: 20px 20px 0px 0px;
+	border-radius: 20px 20px 0px 0px;
+	background-color:#F7C248;
+}
+a.menu:link {
+	color: #333;
+	text-decoration: none;
+	font-weight: bolder;
+}
+a.menu:hover {
+	color: #333;
+	text-decoration: none;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #333;
+	font-weight: bolder;
+}
+a.menu:visited {
+	color: #333;
+	text-decoration: none;
+	font-weight: bolder;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+li  {
+	display: inline;
+	padding: 5px;
+}
+#select {
+	width: 110px;
+}
+#yuklebuton {
+	width:120px;
+	font-weight: bold;
+	color: #333;
+	background-color: #F7C248;
+	border: thin solid #E9A60A;
+	font-size: 14px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 10px;
+	padding-right: 35px;
+	padding-bottom: 10px;
+	padding-left: 35px;
+}
+#yuklebuton:active {
+	width:120px;
+	font-weight: bold;
+	color: #999;
+	background-color: #FAD57C;
+	border: thin solid #E9A60A;
+	font-size: 14px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 10px;
+	padding-right: 35px;
+	padding-bottom: 10px;
+	padding-left: 35px;
+}
+.resimlink:link {
+	color: #333;
+	text-decoration: none;
+}
+.resimlink:visited {
+	color: #333;
+	text-decoration: none;
+}
+.resimlink:hover {
+	color: #666;
+	text-decoration: none;
+}
+.giris{
+	color: #666;
+	background-color: #FBDC95;
+	border: thin solid #E9A60A;
+}
+.giris:focus {
+	color: #333;
+	background-color: #FEF1D3;
+	border: thin solid #E9A60A;
+}
+.girisbuton {
+	font-weight: bold;
+	color: #333;
+	background-color: #FBDC95;
+	border: thin solid #E9A60A;
+}
+#banner {
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 5px;
+}
+#copright {
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#E9A60A), to(#FAD683));
+	width: 898px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 10px;
+	border-top-width: medium;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #E9A60A;
+	border-right-color: #d4d3cf;
+	border-bottom-color: #d4d3cf;
+	border-left-color: #d4d3cf;
+	-webkit-border-radius: 20px 20px 0px 0px;
+	-moz-border-radius: 0px 0px 20px 20px;
+	border-radius: 0px 0px 20px 20px;
+	background-color:#F7C248;
+}
+h1 {
+text-shadow: 1px 1px 1px black;
+}
+#rsmlr {
+	display: block;
+	background-color: #F2F2F2;
+}
+#rsmlr:hover {
+	background-color: #E5E5E5;
+	display: block;
+}
